@@ -1,8 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout";
 import DefaultPage from "./views/DefaultPage";
-import Create from "./views/Create";
-import Update from "./views/Update";
+import Services from "./views/Services";
+import Cases from "./views/Cases";
+import OmOs from "./views/OmOs";
+import Kontakt from "./views/Kontakt";
 
 const router = createBrowserRouter ([
   {
@@ -15,13 +17,23 @@ const router = createBrowserRouter ([
       },
 
       {
-        path: "/create",
-        element: <Create />
+        path: "/services",
+        element: <Services />
       },
 
       {
-        path: "/update/:id",
-        element: <Update />
+        path: "/cases",
+        element: <Cases />
+      },
+
+      {
+        path: "/om-os",
+        element: <OmOs />
+      },
+
+      {
+        path: "/kontakt",
+        element: <Kontakt />
       },
     ]
   }

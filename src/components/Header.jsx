@@ -5,10 +5,16 @@ export default function Header() {
         <header>
             <nav>
                 <p>
-                    <Link className="linktext" to="/">Home</Link>
+                    <Link className="linktext" to="/">Services</Link>
                 </p>
-                                <p>
-                    <Link className="linktext" to="/create">Create Event</Link>
+                <p>
+                    <Link className="linktext" to="/create">Cases</Link>
+                </p>
+                <p>
+                    <Link className="linktext" to="/create">Om os</Link>
+                </p>
+                <p>
+                    <Link className="linktext" to="/create">Kontakt</Link>
                 </p>
             </nav>
         </header>
