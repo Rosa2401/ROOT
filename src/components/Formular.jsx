@@ -1,62 +1,70 @@
 export default function Formular() {
-    return (
+  return (
+    <div className="min-h-screen flex items-center justify-center px-4">
+      
       <div className="bg-[#91766D] rounded-3xl p-12 max-w-4xl w-full">
         
-        <h2 className="text-4xl text-center mb-2 font-oleo">
+        <h2 className="text-4xl text-center mb-6 text-[#F6ECE3]">
           Kontakt
         </h2>
-  
-        <p className="text-center mb-10 text-sm">
+
+        <p className="text-center mb-10 text-[#F6ECE3]">
           Udfyld formularen nedenfor, så kontakter vi dig hurtigst muligt.
         </p>
-  
+
         <form className="grid grid-cols-2 gap-6">
-          
           <div>
-            <label className="block mb-2">Dit fulde navn:</label>
+            <label className="block mb-2 text-[#F6ECE3]">Dit fulde navn:</label>
             <input
               type="text"
               placeholder="Dit fulde navn"
-              className="w-full p-3 rounded-lg bg-[#F6ECE3] text-black"
+              className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
-  
+
           <div>
-            <label className="block mb-2">Dit telefonnummer:</label>
+            <label className="block mb-2 text-[#F6ECE3]">Dit telefonnummer:</label>
             <input
               type="text"
               placeholder="Dit telefonnummer"
-              className="w-full p-3 rounded-lg bg-[#F6ECE3] text-black"
+              className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
-  
+
           <div>
-            <label className="block mb-2">E-mail:</label>
+            <label className="block mb-2 text-[#F6ECE3]">E-mail:</label>
             <input
               type="email"
               placeholder="Din E-mail"
-              className="w-full p-3 rounded-lg bg-[#F6ECE3] text-black"
+              className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
-  
+
           <div>
-            <label className="block mb-2">Virksomhedsnavn:</label>
+            <label className="block mb-2 text-[#F6ECE3]">Virksomhedsnavn:</label>
             <input
               type="text"
               placeholder="Navn på virksomhed - udfyldes hvis nødvendigt"
-              className="w-full p-3 rounded-lg bg-[#F6ECE3] text-black"
+              className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
-  
+
           <div className="col-span-2">
-            <label className="block mb-2">Besked:</label>
+            <label className="block mb-2 text-[#F6ECE3]">Besked:</label>
             <textarea
               placeholder="Fortæl gerne nærmere, hvad du ønsker hjælp med."
-              className="w-full p-3 rounded-lg bg-[#F6ECE3] text-black h-32"
-            />
+              className="w-full p-3 rounded-lg bg-[#F6ECE3] h-32"/>
           </div>
-  
+
+          <div className="col-span-2 flex justify-center mt-4">
+            <button
+              type="submit"
+              className="bg-[#FFCFD5] text-[#442F2A] text-ml px-10 py-4 rounded-2xl border-2 border-[#442F2A] w-full max-w-sm">
+              Send besked
+            </button>
+          </div>
         </form>
       </div>
-    );
-  }
+    </div>
+  );
+}
