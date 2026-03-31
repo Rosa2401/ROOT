@@ -15,7 +15,7 @@ export default function Header() {
                     <Link className="linktext" to="/create">Om os</Link>
                 </p>
                 <p>
-                    <Link className="linktext" to="/create">Kontakt</Link>
+                    <Link className="linktext" to="/kontakt">Kontakt</Link>
                 </p>
             </nav>
         </header>
