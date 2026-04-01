@@ -12,7 +12,7 @@ export default function Header() {
                     <Link className="linktext" to="/cases">Cases</Link>
                 </p>
                 <p>
-                    <Link className="linktext" to="/om os">Om os</Link>
+                    <Link className="linktext" to="/om-os">Om os</Link>
                 </p>
                 <p>
                     <Link className="linktext" to="/kontakt">Kontakt</Link>
