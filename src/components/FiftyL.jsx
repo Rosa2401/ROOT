@@ -1,12 +1,14 @@
 
 
 const FiftyL = ({
-  title,
-  paragraphs = [],
-  buttonText,
-  buttonLink,
-  image,
-  imageAlt = "",
+title,
+paragraphs = [],
+buttonText,
+buttonLink,
+image,
+imageAlt = "",
+price,
+priceNote,
 }) => {
 
   return (
@@ -41,6 +43,26 @@ const FiftyL = ({
                 <p key={index}>{paragraph}</p>
                 ))}
             </div>
+
+            {(price || priceNote) && (
+            <div className="mt-6">
+                
+                {/* ekskl. moms */}
+                {priceNote && (
+                <p className="font-oleo text-sm italic">
+                    {priceNote}
+                </p>
+                )}
+
+                {/* pris */}
+                {price && (
+                <p className="font-oleo text-4xl font-bold">
+                    {price}
+                </p>
+                )}
+
+            </div>
+            )}
 
             {buttonText && buttonLink && (
                 <a
