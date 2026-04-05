@@ -19,7 +19,7 @@ imageLink,
             {/* Tekst højre */}
             <div className="w-full pl-[20%] pr-[5%] text-[#4b342f]">
                 {title && (
-                <h2 className="font-oleo mb-4 text-3xl font-semibold">
+                <h2 className="font-oleo mb-4 text-4xl font-semibold">
                 {title}
                 </h2>
             )}

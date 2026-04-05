@@ -1,15 +1,17 @@
-import FiftyL from "../components/FiftyL";
-import FiftyLIndhold from "../components/FiftyLindhold";
-import FiftyR from "../components/FiftyR";
-import FiftyRindhold from "../components/FiftyRindhold";
+import CaseLIndhold from "../components/CaseLindhold";
+import CaseL from "../components/CaseL";
+import CaseR from "../components/CaseR";
+import CaseRIndhold from "../components/CaseRIndhold";
 
 export default function Cases() {
 
     return (
         <div>
+            <CaseL {...CaseLIndhold.freelancerFotograf}/>
+            <CaseR {...CaseRIndhold.ugcCreator}/>
+            <CaseL {...CaseLIndhold.grafiskDesigner}/>
         </div>
     )
 
     
 }
-

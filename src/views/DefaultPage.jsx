@@ -1,9 +1,9 @@
 import '../App.css'
 import Facts from '../components/Facts'
 import FiftyL from '../components/FiftyL'
-import FiftyLIndhold from '../components/FiftyLindhold'
+import FiftyLIndhold from '../components/FiftyLIndhold'
 import FiftyR from '../components/FiftyR'
-import FiftyRindhold from '../components/FiftyRindhold'
+import FiftyRIndhold from '../components/FiftyRIndhold'
 
 
 function DefaultPage() {
@@ -12,7 +12,7 @@ function DefaultPage() {
     <div>
       <Facts/>
       <FiftyL {...FiftyLIndhold.voresTilgang}/>
-      <FiftyR {...FiftyRindhold.tidligereArbejde}/>
+      <FiftyR {...FiftyRIndhold.tidligereArbejde}/>
       <FiftyL {...FiftyLIndhold.vardier}/>
     </div>
   )

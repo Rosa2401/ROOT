@@ -1,7 +1,7 @@
 import FiftyL from "../components/FiftyL";
-import FiftyLIndhold from "../components/FiftyLindhold";
+import FiftyLIndhold from "../components/FiftyLIndhold";
 import FiftyR from "../components/FiftyR";
-import FiftyRindhold from "../components/FiftyRindhold";
+import FiftyRIndhold from "../components/FiftyRIndhold";
 
 export default function Services() {
 
@@ -9,7 +9,7 @@ export default function Services() {
     return (
        <div>
             <FiftyL {...FiftyLIndhold.altIEn}/>
-            <FiftyR {...FiftyRindhold.optimeretBrugerrejse}/>
+            <FiftyR {...FiftyRIndhold.optimeretBrugerrejse}/>
             <FiftyL {...FiftyLIndhold.optimering}/>
         </div>
     )

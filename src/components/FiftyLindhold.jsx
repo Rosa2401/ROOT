@@ -6,6 +6,7 @@ voresTilgang: {
   buttonText: "Vores services",
   buttonLink: "/services",
   image: "/images/vores-tilgang.jpg",
+  imageAlt: "Billede af en fotograf i aktion", 
 },
 
 vardier: {
@@ -14,6 +15,7 @@ vardier: {
   buttonText: "Vores værdier",
   buttonLink: "/omos",
   image: "/images/vores-tilgang.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 altIEn: {
@@ -24,6 +26,7 @@ altIEn: {
   priceNote: "ekskl. moms",
   price: "Fra 14.995,-",
   image: "/images/alt-i-en.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 optimering: {
@@ -34,6 +37,7 @@ optimering: {
   priceNote: "ekskl. moms",
   price: "Fra 4.995,-",
   image: "/images/optimering.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 laura: {
@@ -42,6 +46,7 @@ laura: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:laura@firma.dk",
   image: "/images/laura.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 rosa: {
@@ -50,6 +55,7 @@ rosa: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:rosa@firma.dk",
   image: "/images/rosa.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 };
 

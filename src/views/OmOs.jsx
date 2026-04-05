@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FiftyL from "../components/FiftyL";
-import FiftyLIndhold from "../components/FiftyLindhold";
+import FiftyLIndhold from "../components/FiftyLIndhold";
 import FiftyR from "../components/FiftyR";
-import FiftyRindhold from "../components/FiftyRindhold";
+import FiftyRIndhold from "../components/FiftyRIndhold";
 
 export default function OmOs() {
 
@@ -11,9 +11,9 @@ export default function OmOs() {
     return (
     <main>
         <FiftyL {...FiftyLIndhold.laura} />
-        <FiftyR {...FiftyRindhold.sabrina} />
+        <FiftyR {...FiftyRIndhold.sabrina} />
         <FiftyL {...FiftyLIndhold.rosa} />
-        <FiftyR {...FiftyRindhold.samarbejde} />
+        <FiftyR {...FiftyRIndhold.samarbejde} />
     </main>
     )
     

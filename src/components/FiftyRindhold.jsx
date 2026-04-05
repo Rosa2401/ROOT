@@ -9,6 +9,7 @@ tidligereArbejde: {
   buttonLink: "/cases",
   image: ugc,
   imageLink: "/cases",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 optimeretBrugerrejse: {
@@ -19,6 +20,7 @@ optimeretBrugerrejse: {
   priceNote: "ekskl. moms",
   price: "Fra 7.995,-",
   image: "/images/optimeret-brugerrejse.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 sabrina: {
@@ -27,6 +29,7 @@ sabrina: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:sabrina@firma.dk",
   image: "/images/sabrina.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 samarbejde: {
@@ -34,6 +37,7 @@ samarbejde: {
   buttonText: "KONTAKT OS",
   buttonLink: "/kontakt",
   image: "/images/alle.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 uforpligtende: {
@@ -42,6 +46,7 @@ uforpligtende: {
   buttonText: "Book samtale",
   buttonLink: "mailto:root@firma.dk",
   image: "/images/samtale.jpg",
+  imageAlt: "Billede af en fotograf i aktion",
 },
 
 };

@@ -24,7 +24,7 @@ imageLink,
                     <img
                         src={image}
                         alt={imageAlt}
-                        className="h-full w-full object-cover"
+                        className="h-[70%] w-[70%] object-contain"
                     />
                     </Link>
                     ) : (
@@ -36,7 +36,7 @@ imageLink,
             {/* Tekst højre */}
             <div className="max-w-xl pl-[10%] text-[#4b342f]">
                 {title && (
-                <h2 className="font-oleo mb-4 text-3xl font-semibold">
+                <h2 className="font-oleo mb-4 text-4xl font-semibold">
                 {title}
                 </h2>
             )}
