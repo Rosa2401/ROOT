@@ -1,4 +1,4 @@
-import ugc from "../assets/ugc-creator.png";
+import ugc from "../assets/ugc-creator.webp";
 
 const FiftyRIndhold = {
 

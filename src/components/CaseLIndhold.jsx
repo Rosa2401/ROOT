@@ -2,6 +2,8 @@ import webpIcon from "../assets/webp.svg";
 import sitemapIcon from "../assets/sitemap.svg";
 import svgIcon from "../assets/svg.svg";
 import loadingIcon from "../assets/loading.svg";
+import freelance from "../assets/freelancer-fotograf.webp";
+import grafisk from "../assets/grafisk-design.webp";
 
 const CaseLIndhold = {
 
@@ -10,7 +12,7 @@ freelancerFotograf: {
   subtitle: "Optimeret brugerrejse",
   buttonText: "Se case",
   buttonLink: "/",
-  image: "/images/vores-tilgang.jpg",
+  image: freelance,
   imageAlt: "Billede af en fotograf i aktion",
   features: [
       {
@@ -36,7 +38,7 @@ grafiskDesigner: {
   subtitle: "Alt i én",
   buttonText: "Se case",
   buttonLink: "/",
-  image: "/images/vores-tilgang.jpg",
+  image: grafisk,
   imageAlt: "Billede af en grafisk designer i aktion",
   features: [
       {

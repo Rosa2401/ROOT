@@ -80,7 +80,7 @@ const CaseR = ({
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-[78%] max-w-[78%] object-contain mr-[10%]"
+                className="max-h-[70%] max-w-[70%] object-contain mr-[5%]"
               />
             ) : (
               <div className="h-full w-full" />
