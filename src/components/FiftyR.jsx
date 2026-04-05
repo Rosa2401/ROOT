@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
+
 const FiftyR = ({
-  title,
-  paragraphs = [],
-  buttonText,
-  buttonLink,
-  image,
-  imageAlt = "",
-  price,
-  priceNote,
+title,
+paragraphs = [],
+buttonText,
+buttonLink,
+image,
+imageAlt = "",
+price,
+priceNote,
+imageLink,
 }) => {
 
   return (
@@ -50,7 +53,7 @@ const FiftyR = ({
             {buttonText && buttonLink && (
                 <a
                 href={buttonLink}
-                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#efc4cf] px-6 py-2 text-xs font-semibold uppercase tracking-wide"
+                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#efc4cf] px-6 py-2 text-lg font-semibold uppercase tracking-wide"
                 >
                 {buttonText}
                 </a>
@@ -59,13 +62,15 @@ const FiftyR = ({
 
             {/* Billede højre */}
             <div className="w-full pl-[5%]">
-                <div className="lg:h-[520px] overflow-hidden rounded-l-[3rem] border border-[#4b342f]">
+                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-l-[3rem] border border-[#4b342f]">
                     {image ? (
+                    <Link to={imageLink} className="flex items-center justify-center w-full h-full">  
                     <img
                         src={image}
                         alt={imageAlt}
-                        className="h-full w-full object-cover"
+                        className="h-[70%] w-[70%] object-contain"
                     />
+                    </Link>  
                     ) : (
                     <div className="h-full w-full" />
                     )}

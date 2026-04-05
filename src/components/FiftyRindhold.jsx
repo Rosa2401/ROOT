@@ -1,11 +1,14 @@
-const FiftyLIndhold = {
+import ugc from "../assets/ugc-creator.png";
+
+const FiftyRIndhold = {
 
 tidligereArbejde: {
   title: "Tidligere arbejde",
   paragraphs: ["Vil du vide, hvordan vi har hjulpet virksomheder med at gøre deres hjemmesider hurtigere og mere effektive? Vi har arbejder med flere kunder om at reducere datamængde, ved at optimere deres indhold og skabe en bedre oplevelse for brugeren, uden at gå på kompromis med designet.", "Hver case tager udgangspunkt i den enkelte virksomheds behov, hvor vi har skabt løsninger, der både er visuelt stærke og mere effektive i deres ressourceforbrug. Se vores arbejde og få indblik i, hvordan vi arbejder med optimering i praksis."],
   buttonText: "Se cases",
   buttonLink: "/cases",
-  image: "/images/sabrina.jpg",
+  image: ugc,
+  imageLink: "/cases",
 },
 
 optimeretBrugerrejse: {
@@ -43,4 +46,4 @@ uforpligtende: {
 
 };
 
-export default FiftyLIndhold;
+export default FiftyRIndhold;
