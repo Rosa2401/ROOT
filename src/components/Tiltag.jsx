@@ -33,7 +33,7 @@ export default function TiltagBox() {
         {tiltag.map((tiltag, index) => (
           <div key={index} className="flex flex-col items-center text-center space-y-2">
             <div className="text-white">{tiltag.svg}</div>
-            <p className="text-sm opacity-80">{tiltag.text}</p>
+            <p className="text-sm font-sans opacity-80">{tiltag.text}</p>
           </div>
         ))}
       </div>
