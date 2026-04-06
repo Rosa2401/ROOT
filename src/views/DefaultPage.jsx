@@ -5,6 +5,7 @@ import FiftyLIndhold from '../components/FiftyLIndhold'
 import FiftyR from '../components/FiftyR'
 import FiftyRIndhold from '../components/FiftyRIndhold'
 import InfoboxesS from '../components/InfoboxesS'
+import TiltagBox from '../components/Tiltag'
 
 
 function DefaultPage() {
@@ -13,6 +14,7 @@ function DefaultPage() {
     <div>
       <Facts/>
       <FiftyL {...FiftyLIndhold.voresTilgang}/>
+      <TiltagBox/>
       <FiftyR {...FiftyRIndhold.tidligereArbejde}/>
       <InfoboxesS/>
       <FiftyL {...FiftyLIndhold.vardier}/>
