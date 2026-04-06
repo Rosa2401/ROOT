@@ -13,7 +13,7 @@ freelancerFotograf: {
   buttonText: "Se case",
   buttonLink: "/",
   image: freelance,
-  imageAlt: "Billede af en fotograf i aktion",
+  imageAlt: "mockup af en fotograf hjemmeside",
   features: [
       {
         icon: webpIcon,
@@ -39,7 +39,7 @@ grafiskDesigner: {
   buttonText: "Se case",
   buttonLink: "/",
   image: grafisk,
-  imageAlt: "Billede af en grafisk designer i aktion",
+  imageAlt: "mockup grafisk designers hjemmeside",
   features: [
       {
         icon: webpIcon,

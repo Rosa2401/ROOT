@@ -1,4 +1,5 @@
 import ugc from "../assets/ugc-creator.webp";
+import optimeretBrugerrejse from "../assets/brugerrejse.svg";
 
 const FiftyRIndhold = {
 
@@ -9,7 +10,7 @@ tidligereArbejde: {
   buttonLink: "/cases",
   image: ugc,
   imageLink: "/cases",
-  imageAlt: "Billede af en fotograf i aktion",
+  imageAlt: "mockup af en UGC creators hjemmeside",
 },
 
 optimeretBrugerrejse: {
@@ -19,8 +20,8 @@ optimeretBrugerrejse: {
   buttonLink: "/cases",
   priceNote: "ekskl. moms",
   price: "Fra 7.995,-",
-  image: "/images/optimeret-brugerrejse.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  image: optimeretBrugerrejse,
+  imageAlt: "Billede af fod i mockup som illusterer optimeret brugerrejse",
 },
 
 sabrina: {

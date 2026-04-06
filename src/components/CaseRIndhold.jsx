@@ -11,7 +11,7 @@ ugcCreator: {
   buttonText: "Se case",
   buttonLink: "/",
   image: ugc,
-  imageAlt: "Billede af en fotograf i aktion",
+  imageAlt: "mockup af en UGC creators hjemmeside",
   features: [
       {
         icon: webpIcon,

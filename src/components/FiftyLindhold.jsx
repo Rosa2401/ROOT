@@ -1,3 +1,6 @@
+import altIEn from "../assets/altien.svg";
+import optimering from "../assets/optimering.svg";
+
 const FiftyLIndhold = {
 
 voresTilgang: {
@@ -25,8 +28,8 @@ altIEn: {
   buttonLink: "/kontakt",
   priceNote: "ekskl. moms",
   price: "Fra 14.995,-",
-  image: "/images/alt-i-en.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  image: altIEn,
+  imageAlt: "Billede af fod og lyn i mockup som illusterer alt i én løsning",
 },
 
 optimering: {
@@ -36,8 +39,8 @@ optimering: {
   buttonLink: "/kontakt",
   priceNote: "ekskl. moms",
   price: "Fra 4.995,-",
-  image: "/images/optimering.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  image: optimering,
+  imageAlt: "Billede af lyn i mockup som illusterer optimering",
 },
 
 laura: {
