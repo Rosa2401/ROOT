@@ -10,7 +10,7 @@ const tiltag = [
   },    
   {
     svg: <img src={svgIcon} alt="SVG piktogram" className="w-90 h-90" />,
-    text: "Vi bruger de rigtige filformater som SVG og PNG, så grafik står skarpt og samtidig holder datamængden nede."
+    text: "Vi bruger de rigtige filformater, som SVG og PNG, så grafik står skarpt og samtidig holder datamængden nede."
   },
   {
     svg: <img src={kreativIcon} alt="Kreativ piktogram" className="w-90 h-90" />,
@@ -33,7 +33,7 @@ export default function TiltagBox() {
         {tiltag.map((tiltag, index) => (
           <div key={index} className="flex flex-col items-center text-center space-y-2">
             <div className="text-white">{tiltag.svg}</div>
-            <p className="text-md font-sans opacity-80">{tiltag.text}</p>
+            <p className="text-md font-sans">{tiltag.text}</p>
           </div>
         ))}
       </div>
