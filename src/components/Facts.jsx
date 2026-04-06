@@ -6,7 +6,7 @@ export default function Facts() {
           
           {/* VENSTRE STOR BOKS */}
           <div className="bg-[#4A2E2A] text-[#F6ECE3] rounded-[40px] p-10 flex flex-col justify-center">
-            <h2 className="text-3xl mb-10 ">
+            <h2 className="font-oleo text-3xl mb-10 ">
               Hvorfor er optimering vigtigt?
             </h2>
             <p className="text-sm mb-4">

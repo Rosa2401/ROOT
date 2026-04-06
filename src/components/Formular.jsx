@@ -2,9 +2,9 @@ export default function Formular() {
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
       
-      <div className="bg-[#91766D] rounded-3xl p-12 max-w-4xl w-full">
+      <div className="bg-[#91766D] rounded-3xl p-12 max-w-6xl w-full">
         
-        <h2 className="text-4xl text-center mb-6 text-[#F6ECE3]">
+        <h2 className="font-oleo text-6xl text-center mb-6 text-[#F6ECE3]">
           Kontakt
         </h2>
 
@@ -59,7 +59,7 @@ export default function Formular() {
           <div className="col-span-2 flex justify-center mt-4">
             <button
               type="submit"
-              className="bg-[#FFCFD5] text-[#442F2A] text-ml px-10 py-4 rounded-2xl border-2 border-[#442F2A] w-full max-w-sm">
+              className="bg-[#FFCFD5] text-[#442F2A] text-ml px-10 py-4 rounded-2xl border-2 border-[#442F2A] w-full max-w-sm font-oleo">
               Send besked
             </button>
           </div>
