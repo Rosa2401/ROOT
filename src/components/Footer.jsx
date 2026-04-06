@@ -1,11 +1,15 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
-      <footer className="bg-[#4A2E2A] text-[#F6ECE3] rounded-t-[80px] px-16 py-20">
+      <footer className="bg-[#4A2E2A] text-[#F6ECE3] rounded-t-[80px] px-12 py-20">
         
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-20">
           
           <div>
-          <h2 className="text-6xl mb-8 -mt-8">ROOT</h2>
+          <Link to="/" className="inline-block">
+            <h2 className="font-oleo text-6xl mb-8 -mt-8 cursor-pointer">ROOT</h2>
+          </Link>
             <ul className="space-y-3 text-sm">
               <li>SØNDERHØJ 30</li>
               <li>8260 VIBY J</li>
@@ -14,17 +18,23 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-2xl mb-6 ">VI TILBYDER</h3>
+            <h3 className="font-oleo text-2xl mb-6 ">VI TILBYDER</h3>
             <ul className="space-y-3 text-sm">
-              <li>ALT I ÉN</li>
-              <li>OPTIMERING</li>
-              <li>OPTIMERET BRUGERREJSE</li>
-            </ul>
+            <li>
+                <a href="/services" className="block hover:underline">ALT I ÉN</a>
+            </li>
+            <li>
+                <a href="/services" className="block hover:underline">OPTIMERING</a>
+            </li>
+            <li>
+                <a href="/services" className="block hover:underline">OPTIMERET BRUGERREJSE</a>
+            </li>
+          </ul>
           </div>
   
 
         <div>
-        <h3 className="text-2xl mb-6">MERE INFORMATION</h3>
+        <h3 className="font-oleo text-2xl mb-6">MERE INFORMATION</h3>
 
             <ul className="space-y-3 text-sm">
             <li>
@@ -43,9 +53,17 @@ export default function Footer() {
         </div>
   
           <div>
-            <h3 className="text-2xl mb-6 ">KONTAKT</h3>
+            <h3 className=" font-oleo text-2xl mb-6 ">KONTAKT</h3>
             <p className="text-sm mb-2">+45 60 60 60 60</p>
-            <p className="text-sm mb-6">INFO@ROOT.DK</p>
+            <p className="text-sm mb-4">INFO@ROOT.DK</p>
+            
+            <a href="https://www.linkedin.com">
+              <img 
+                src="src/assets/linkedin.svg" 
+                alt="LinkedIn" 
+                className="w-10 h-10"
+              />
+            </a>
           </div>
   
         </div>
