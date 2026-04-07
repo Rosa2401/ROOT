@@ -1,8 +1,8 @@
 export default function InfoboxesVV() {
     return (
-      <section className="bg-[#8B6F63] rounded-[50px] py-20 text-[#F6ECE3] max-w-7xl mx-auto px-8">
+      <section className="bg-[#8B6F63] rounded-[50px] py-18 text-[#F6ECE3] max-w-7xl mx-auto px-8">
         
-        <h2 className="font-oleo text-center text-5xl mb-20">
+        <h2 className="font-oleo text-center text-5xl mb-24">
           Vores værdier
         </h2>
   
@@ -14,9 +14,8 @@ export default function InfoboxesVV() {
             {/* IKON */}
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="/icons/design.svg" 
-                alt="Design ikon"
-                className="w-12 h-12 object-contain"
+                src="src/assets/omtanke2.svg" 
+                alt="Omtanke ikon"
               />
             </div>
   
@@ -47,9 +46,8 @@ export default function InfoboxesVV() {
             
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="/icons/kreativitet.svg" 
+                src="src/assets/kreativt2.svg" 
                 alt="Kreativitet ikon"
-                className="w-12 h-12 object-contain"
               />
             </div>
   
@@ -63,7 +61,7 @@ export default function InfoboxesVV() {
   
               <p className="mb-6 text-sm">
                 Vi forstår hvor vigtigt dit visuelle udtryk er. Derfor går vi ikke på kompromis
-                med dit design, men finder nye løsninger.
+                med dit design, men finder nye løsninger som giver mening for dig.
               </p>
   
               <ul className="text-ml space-y-2 mt-8">
@@ -80,9 +78,8 @@ export default function InfoboxesVV() {
             
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="/icons/effektiv.svg" 
+                src="src/assets/effektivt2.svg" 
                 alt="Effektiv ikon"
-                className="w-12 h-12 object-contain"
               />
             </div>
   
