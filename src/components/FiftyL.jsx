@@ -24,7 +24,7 @@ imageLink,
                     <img
                         src={image}
                         alt={imageAlt}
-                        className="h-[70%] w-[70%] object-contain"
+                        className="h-[60%] w-[60%] object-contain"
                     />
                     </Link>
                     ) : (
@@ -70,7 +70,7 @@ imageLink,
             {buttonText && buttonLink && (
                 <a
                 href={buttonLink}
-                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#efc4cf] px-6 py-2 text-lg font-semibold uppercase tracking-wide"
+                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#FFCFD5] px-6 py-2 text-lg font-semibold uppercase tracking-wide"
                 >
                 {buttonText}
                 </a>
