@@ -10,8 +10,8 @@ voresTilgang: {
   paragraphs: ["Vi hjælper dig med at skabe en hjemmeside, der både ser godt ud og fungerer, som den skal. Vi tager udgangspunkt i din virksomhed og bygger en løsning, der er enkel, overskuelig og giver mening for brugeren. Samtidig har vi fokus på at holde siden let, så den loader hurtigt og fungerer optimalt.", "Vi hjælper med at vælge de rigtige filformater, det rette antal fonts og sikrer, at indholdet er optimeret, så hjemmesiden ikke bliver tungere end nødvendigt. Alt sammen uden at gå på kompromis med designet eller fremstillingen af kundens arbejde. Resultatet er en løsning, der både er visuelt stærk, nem at bruge og mere effektiv i sit ressourceforbrug"],
   buttonText: "Vores services",
   buttonLink: "/services",
-  image: "/images/vores-tilgang.jpg",
-  imageAlt: "Billede af en fotograf i aktion", 
+  image: optimering,
+  imageAlt: "Billede af lyn i mockup som illusterer optimering", 
 },
 
 vardier: {
