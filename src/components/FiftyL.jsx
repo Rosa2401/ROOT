@@ -34,7 +34,7 @@ imageLink,
             </div>
 
             {/* Tekst højre */}
-            <div className="max-w-xl pl-[10%] text-[#4b342f]">
+            <div className="max-w-xl pl-[10%] text-[#442F2A]">
                 {title && (
                 <h2 className="font-oleo mb-4 text-4xl font-semibold">
                 {title}

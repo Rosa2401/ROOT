@@ -27,7 +27,7 @@ const CaseL = ({
         </div>
 
         {/* Tekst højre */}
-        <div className="w-full pl-[10%] pr-[10%] text-[#4b342f]">
+        <div className="w-full pl-[10%] pr-[10%] text-[#442F2A]">
           <div className="max-w-[520px]">
             
             {/* Titel */}
