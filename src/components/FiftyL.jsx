@@ -13,7 +13,7 @@ imageLink,
 }) => {
 
   return (
-    <section className="w-full py-16">
+    <section className="w-full py-16 my-20">
         <div className="grid items-center lg:grid-cols-2">
         
             {/* Billede venstre */}
