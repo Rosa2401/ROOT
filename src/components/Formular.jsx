@@ -18,6 +18,7 @@ export default function Formular() {
             <input
               type="text"
               placeholder="Dit fulde navn"
+              required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
@@ -27,6 +28,7 @@ export default function Formular() {
             <input
               type="text"
               placeholder="Dit telefonnummer"
+              required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
@@ -35,7 +37,8 @@ export default function Formular() {
             <label className="block mb-2 text-[#F6ECE3]">E-mail:</label>
             <input
               type="email"
-              placeholder="Din E-mail"
+              placeholder="E-mail"
+              required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
@@ -53,6 +56,7 @@ export default function Formular() {
             <label className="block mb-2 text-[#F6ECE3]">Besked:</label>
             <textarea
               placeholder="Fortæl gerne nærmere, hvad du ønsker hjælp med."
+              required
               className="w-full p-3 rounded-lg bg-[#F6ECE3] h-32"/>
           </div>
 
