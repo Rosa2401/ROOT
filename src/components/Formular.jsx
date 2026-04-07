@@ -59,7 +59,7 @@ export default function Formular() {
           <div className="col-span-2 flex justify-center mt-4">
             <button
               type="submit"
-              className="bg-[#FFCFD5] text-[#442F2A] text-ml px-10 py-4 rounded-2xl border-2 border-[#442F2A] w-full max-w-sm font-oleo">
+                className="mt-8 inline-block bg-[#FFCFD5] text-[#442F2A] text-base px-20 py-2 rounded-xl border-1 border-[#442F2A] max-w-sm font-oleo uppercase transform hover:scale-105 hover:text-[#FFCFD5] hover:bg-[#442F2A] transition duration-300">
               Send besked
             </button>
           </div>

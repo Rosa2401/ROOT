@@ -70,7 +70,7 @@ imageLink,
             {buttonText && buttonLink && (
                 <a
                 href={buttonLink}
-                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#FFCFD5] px-6 py-2 text-lg font-semibold uppercase tracking-wide"
+                className="mt-8 inline-block bg-[#FFCFD5] text-[#442F2A] text-base px-16 py-2 rounded-xl border-1 border-[#442F2A] max-w-sm font-oleo uppercase transform hover:scale-105 hover:text-[#FFCFD5] hover:bg-[#442F2A] transition duration-300"
                 >
                 {buttonText}
                 </a>

@@ -28,12 +28,12 @@ export default function InfoboxesVV() {
   
               <div className="w-60 h-[1px] bg-[#F6ECE3] mx-auto mb-6"></div>
   
-              <p className="mb-6 text-sm">
+              <p className="mb-6 text-md">
                 Vi tænker fremad og skaber løsninger, der holder. Med effektivt design
                 og optimerede medier gør vi det nemt at reducere klimaaftryk.
               </p>
   
-              <ul className="text-ml space-y-2 mt-8">
+              <ul className="text-md space-y-2 mt-8">
                 <li>• Langsigtede løsninger</li>
                 <li>• Effektivt design</li>
                 <li>• Optimerede medier</li>
@@ -61,12 +61,12 @@ export default function InfoboxesVV() {
   
               <div className="w-60 h-[1px] bg-[#F6ECE3] mx-auto mb-6"></div>
   
-              <p className="mb-6 text-sm">
+              <p className="mb-6 text-md">
                 Vi forstår hvor vigtigt dit visuelle udtryk er. Derfor går vi ikke på kompromis
                 med dit design, men finder nye løsninger.
               </p>
   
-              <ul className="text-ml space-y-2 mt-8">
+              <ul className="text-md space-y-2 mt-8">
                 <li>• Kreativ frihed</li>
                 <li>• Visuel identitet i fokus</li>
                 <li>• Ingen kompromiser</li>
@@ -94,12 +94,12 @@ export default function InfoboxesVV() {
   
               <div className="w-60 h-[1px] bg-[#F6ECE3] mx-auto mb-6"></div>
   
-              <p className="mb-6 text-sm">
+              <p className="mb-6 text-md">
                 Vi gør det nemt at forstå, hvad der kan forbedres, og hvad du får ud af det.
                 Ingen tunge forklaringer, kun klare løsninger.
               </p>
   
-              <ul className="text-ml space-y-2 mt-8">
+              <ul className="text-md space-y-2 mt-8">
                 <li>• Let at forstå</li>
                 <li>• Klare løsninger</li>
                 <li>• Hurtigt overblik</li>

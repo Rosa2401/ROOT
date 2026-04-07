@@ -46,7 +46,7 @@ const CaseL = ({
 
             {/* Features */}
             {features.length > 0 && (
-              <div className="mt-20 mb-3 grid grid-cols-3 gap-12">
+              <div className="mt-16 mb-3 grid grid-cols-3 gap-12">
                 {features.map((feature, index) => (
                   <div key={index} className="flex flex-col items-center text-center">
                     
@@ -58,14 +58,8 @@ const CaseL = ({
                       />
                     )}
 
-                    {feature.title && (
-                      <p className="font-oleo text-2xl leading-none">
-                        {feature.title}
-                      </p>
-                    )}
-
                     {feature.text && (
-                      <p className="mt-2 text-lg leading-snug">
+                      <p className="mt-2 text-lg font-sans leading-snug">
                         {feature.text}
                       </p>
                     )}
@@ -79,7 +73,7 @@ const CaseL = ({
             {buttonText && buttonLink && (
                 <a
                 href={buttonLink}
-                className="font-oleo mt-6 inline-block rounded-full border border-[#4b342f] bg-[#FFCFD5] px-6 py-2 text-lg font-semibold uppercase tracking-wide"
+                className="mt-8 inline-block bg-[#FFCFD5] text-[#442F2A] text-base px-16 py-2 rounded-xl border-1 border-[#442F2A] max-w-sm font-oleo uppercase transform hover:scale-105 hover:text-[#FFCFD5] hover:bg-[#442F2A] transition duration-300"
                 >
                 {buttonText}
                 </a>

@@ -15,17 +15,14 @@ ugcCreator: {
   features: [
       {
         icon: webpIcon,
-        title: "WEBP",
         text: "13 MB sparet",
       },
       {
         icon: loadingIcon,
-        title: "Loading",
         text: "31 % gns. hurtigere loadtime",
       },
       {
         icon: hostIcon,
-        title: "Hosting",
         text: "Optimeret hosting drift",
       },
     ],

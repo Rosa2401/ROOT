@@ -17,17 +17,14 @@ freelancerFotograf: {
   features: [
       {
         icon: webpIcon,
-        title: "WEBP",
         text: "6,4 MB sparet",
       },
       {
         icon: sitemapIcon,
-        title: "Sitemap",
         text: "Fokus på sitemap",
       },
       {
         icon: loadingIcon,
-        title: "Loading",
         text: "25 % gns. hurtigere loadtime",
       },
     ],
