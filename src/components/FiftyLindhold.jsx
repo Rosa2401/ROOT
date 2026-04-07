@@ -1,5 +1,7 @@
 import altIEn from "../assets/altien.svg";
 import optimering from "../assets/optimering.svg";
+import laura from "../assets/laura.webp";
+import rosa from "../assets/rosa.webp";
 
 const FiftyLIndhold = {
 
@@ -8,8 +10,8 @@ voresTilgang: {
   paragraphs: ["Vi hjælper dig med at skabe en hjemmeside, der både ser godt ud og fungerer, som den skal. Vi tager udgangspunkt i din virksomhed og bygger en løsning, der er enkel, overskuelig og giver mening for brugeren. Samtidig har vi fokus på at holde siden let, så den loader hurtigt og fungerer optimalt.", "Vi hjælper med at vælge de rigtige filformater, det rette antal fonts og sikrer, at indholdet er optimeret, så hjemmesiden ikke bliver tungere end nødvendigt. Alt sammen uden at gå på kompromis med designet eller fremstillingen af kundens arbejde. Resultatet er en løsning, der både er visuelt stærk, nem at bruge og mere effektiv i sit ressourceforbrug"],
   buttonText: "Vores services",
   buttonLink: "/services",
-  image: "/images/vores-tilgang.jpg",
-  imageAlt: "Billede af en fotograf i aktion", 
+  image: optimering,
+  imageAlt: "Billede af lyn i mockup som illusterer optimering", 
 },
 
 vardier: {
@@ -48,8 +50,8 @@ laura: {
   paragraphs: ["Laura er projektleder og koordinator og spiller en central rolle i at få projekterne til at hænge sammen fra start til slut. Hun har ansvaret for planlægning, struktur og den løbende dialog med kunderne, så alle er med hele vejen.", "Derudover er hun med til at skabe overblik og holde styr på selv de mindste detaljer, hvilket gør, at projekterne forløber trygt og effektivt.", "Hun arbejder målrettet med at sikre, at deadlines bliver overholdt, og at der er en klar retning i processen, så både teamet og kunden altid ved, hvad næste skridt er."],
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:laura@firma.dk",
-  image: "/images/laura.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  imageOmOs: laura,
+  imageOmOsAlt: "Billede af Laura, projektleder og koordinator",
 },
 
 rosa: {
@@ -57,8 +59,9 @@ rosa: {
   paragraphs: ["Rosa er content- og grafisk designer og står for det visuelle udtryk og den måde, budskaber bliver formidlet på. Hun arbejder med både design og indhold, hvilket gør, at der skabes en rød tråd gennem hele løsningen.", "Rosa har fokus på at skabe visuelle løsninger, der er både æstetiske og funktionelle, og hun tænker i, hvordan design budskaber kan blive mere enkle og lettere at forstå.", "Hun arbejder kreativt, men med en klar retning, så løsningerne både skiller sig ud og giver mening for brugeren."],
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:rosa@firma.dk",
-  image: "/images/rosa.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  imageOmOs: rosa,
+  imageOmOsAlt: "Billede af Rosa, content- og grafisk designer",
+  imageClassName: "",
 },
 };
 

@@ -9,7 +9,7 @@ ugcCreator: {
   title: "UGC Creator",
   subtitle: "Optimering",
   buttonText: "Se case",
-  buttonLink: "/",
+  buttonLink: "/cases",
   image: ugc,
   imageAlt: "mockup af en UGC creators hjemmeside",
   features: [

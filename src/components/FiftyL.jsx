@@ -10,16 +10,19 @@ imageAlt = "",
 price,
 priceNote,
 imageLink,
+imageOmOs,
+imageOmOsAlt = "",
+
 }) => {
 
   return (
-    <section className="w-full py-16">
+    <section className="w-full py-16 my-20">
         <div className="grid items-center lg:grid-cols-2">
         
             {/* Billede venstre */}
             <div className="w-full pr-[5%]">
-                <div className="lg:h-[520px] overflow-hidden rounded-r-[3rem] border border-[#4b342f]">
-                    {image ? (
+                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-r-[3rem] border border-[#4b342f] border-l-0">
+                    {image && (
                     <Link to={imageLink} className="flex items-center justify-center w-full h-full">
                     <img
                         src={image}
@@ -27,14 +30,22 @@ imageLink,
                         className="h-[60%] w-[60%] object-contain"
                     />
                     </Link>
-                    ) : (
-                    <div className="h-full w-full" />
+                    )}
+
+                    {imageOmOs && (
+                    <Link to={imageLink} className="flex items-center justify-center w-full h-full">
+                        <img
+                        src={imageOmOs}
+                        alt={imageOmOsAlt}
+                        className=" mr-10 rounded-r-[3rem] object-cover"
+                        />
+                    </Link>
                     )}
                 </div>
             </div>
 
             {/* Tekst højre */}
-            <div className="max-w-xl pl-[10%] text-[#4b342f]">
+            <div className="max-w-xl pl-[10%] text-[#442F2A]">
                 {title && (
                 <h2 className="font-oleo mb-4 text-4xl font-semibold">
                 {title}
