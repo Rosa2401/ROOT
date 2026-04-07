@@ -61,7 +61,7 @@ export default function Footer() {
               <img 
                 src="src/assets/linkedin.svg" 
                 alt="LinkedIn" 
-                className="w-10 h-10"
+                className="w-12 h-12"
               />
             </a>
           </div>
