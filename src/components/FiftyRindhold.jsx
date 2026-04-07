@@ -16,8 +16,8 @@ tidligereArbejde: {
 optimeretBrugerrejse: {
   title: "Optimeret brugerrejse",
   paragraphs: ["Er du i tvivl om dine bruger er efterladt med en god oplevelse når de forlader din side?","Vi tilbyder at optimere brugerrejsen igennem dit site ved at teste og optimere dit sitemap. Samtidig udvikler vi med mobile-first, så din side fungerer optimalt på mobil, hvor størstedelen af trafikken er.","Vi implementerer lazy loading for at forbedre hastigheden, arbejder med visuel hierarki med klare budskaber. Vi fjerner unødvendigt indhold, så dit site fremstår er mere effektivt."],
-  buttonText: "Se cases",
-  buttonLink: "/cases",
+  buttonText: "Kontakt os",
+  buttonLink: "/kontakt",
   priceNote: "ekskl. moms",
   price: "Fra 7.995,-",
   image: optimeretBrugerrejse,
