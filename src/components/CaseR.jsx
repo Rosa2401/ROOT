@@ -9,7 +9,7 @@ const CaseR = ({
 }) => {
   return (
     <section className="w-full my-20 py-16">
-      <div className="grid items-center lg:grid-cols-2">
+      <div className="ml-auto grid items-center lg:grid-cols-2 rounded-l-[3rem] border border-[#4b342f] border-r-0 w-11/12 lg:h-[520px]">
         
         {/* Tekst venstre */}
         <div className="w-full pl-[20%] pr-[5%] text-[#442F2A]">
@@ -58,7 +58,7 @@ const CaseR = ({
             {buttonText && buttonLink && (
                 <a
                 href={buttonLink}
-                className="mt-8 inline-block bg-[#FFCFD5] text-[#442F2A] text-base px-16 py-2 rounded-xl border-1 border-[#442F2A] max-w-sm font-oleo uppercase transform hover:scale-105 hover:text-[#FFCFD5] hover:bg-[#442F2A]">
+                className="mt-8 inline-block bg-[#FFCFD5] text-[#442F2A] text-base px-16 py-2 rounded-xl border border-[#442F2A] max-w-sm font-oleo uppercase transform hover:scale-105 hover:text-[#FFCFD5] hover:bg-[#442F2A]">
                 {buttonText}
                 </a>
             )}
@@ -68,12 +68,12 @@ const CaseR = ({
 
         {/* Billede højre */}
         <div className="w-full">
-          <div className="flex h-[420px] w-[190%] -ml-[90%] items-center justify-end overflow-hidden rounded-l-[3rem] border border-[#4b342f] lg:h-[520px]">
+          <div className="flex h-[420px] items-center justify-end overflow-hidden">
             {image ? (
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-[60%] max-w-[60%] object-contain mr-[10%]"
+                className="max-h-[70%] max-w-[70%] object-contain mr-[10%]"
               />
             ) : (
               <div className="h-full w-full" />

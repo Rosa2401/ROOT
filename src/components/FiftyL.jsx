@@ -10,6 +10,9 @@ imageAlt = "",
 price,
 priceNote,
 imageLink,
+imageOmOs,
+imageOmOsAlt = "",
+
 }) => {
 
   return (
@@ -18,8 +21,8 @@ imageLink,
         
             {/* Billede venstre */}
             <div className="w-full pr-[5%]">
-                <div className="lg:h-[520px] overflow-hidden rounded-r-[3rem] border border-[#4b342f]">
-                    {image ? (
+                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-r-[3rem] border border-[#4b342f] border-l-0">
+                    {image && (
                     <Link to={imageLink} className="flex items-center justify-center w-full h-full">
                     <img
                         src={image}
@@ -27,8 +30,16 @@ imageLink,
                         className="h-[60%] w-[60%] object-contain"
                     />
                     </Link>
-                    ) : (
-                    <div className="h-full w-full" />
+                    )}
+
+                    {imageOmOs && (
+                    <Link to={imageLink} className="flex items-center justify-center w-full h-full">
+                        <img
+                        src={imageOmOs}
+                        alt={imageOmOsAlt}
+                        className=" mr-10 rounded-r-[3rem] object-cover"
+                        />
+                    </Link>
                     )}
                 </div>
             </div>

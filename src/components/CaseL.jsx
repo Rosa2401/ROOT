@@ -9,16 +9,16 @@ const CaseL = ({
 }) => {
   return (
     <section className="w-full my-20 py-16">
-      <div className="grid items-center lg:grid-cols-2">
+      <div className="grid items-center lg:grid-cols-2 rounded-r-[3rem] border border-[#4b342f] border-l-0 w-11/12 lg:h-[520px]">
         
         {/* Billede venstre */}
         <div className="w-full pr-[5%]">
-            <div className="flex h-[420px] w-[200%] items-center overflow-hidden rounded-r-[3rem] border border-[#4b342f]">
+            <div className="flex h-[420px] w-[200%] items-center overflow-hidden ">
             {image ? (
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-[60%] max-w-[60%] object-contain ml-[10%]"
+                className="max-h-[70%] max-w-[70%] object-contain ml-[10%]"
               />
             ) : (
               <div className="h-full w-full" />

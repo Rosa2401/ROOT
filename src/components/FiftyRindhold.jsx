@@ -31,16 +31,17 @@ sabrina: {
   paragraphs: ["Sabrina er frontend developer og arbejder med at omsætte idéer og design til færdige digitale løsninger. Hun har et stærkt fokus på performance og brugervenlighed, og hun sørger for, at hjemmesiderne ikke bare ser godt ud, men også fungerer optimalt i praksis.", "Sabrina går op i struktur og kvalitet i koden og arbejder detaljeorienteret for at sikre, at alt spiller - både visuelt og teknisk.", "Hun har samtidig øje for, hvordan små forbedringer kan gøre en stor forskel for brugeroplevelsen, især når det kommer til hastighed og navigation."],
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:sabrina@firma.dk",
-  image: sabrina,
-  imageAlt: "Billede af Sabrina, frontend developer",
+  imageOmOs: sabrina,
+  imageOmOsAlt: "Billede af Sabrina, frontend developer",
+  imageClassName: "",
 },
 
 samarbejde: {
   title: "Skal du arbejde sammen med os?",
   buttonText: "KONTAKT OS",
   buttonLink: "/kontakt",
-  image: samlet,
-  imageAlt: "Billede af alle medarbejdere i ROOT",
+  imageOmOs: samlet,
+  imageOmOsAlt: "Billede af alle medarbejdere i ROOT",
 },
 
 uforpligtende: {
@@ -48,8 +49,8 @@ uforpligtende: {
   paragraphs: ["Book en uforpligtende samtale, og lad os tage en ærlig snak om dine behov og muligheder. Vi står klar med sparring og gode råd - uden forventninger eller binding. Samtalen tager udgangspunkt i din situation, hvor vi lytter, stiller de rigtige spørgsmål og hjælper dig med at skabe overblik.","Sammen ser vi på de løsninger, der bedst matcher dine ønsker og mål, så du kan træffe en tryg og velovervejet beslutning.","Hvis det lyder som noget for dig, så tryk på knappen nedenfor – så kontakter vi dig. "],
   buttonText: "Book samtale",
   buttonLink: "mailto:root@firma.dk",
-  image: "/images/samtale.jpg",
-  imageAlt: "Billede af en fotograf i aktion",
+  imageOmOs: samlet,
+  imageOmOsAlt: "Billede af alle medarbejdere i ROOT",
 },
 
 };
