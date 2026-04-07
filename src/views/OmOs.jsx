@@ -10,13 +10,13 @@ export default function OmOs() {
 
 
     return (
-    <main>
+    <div>
         <InfoxesVV/>
         <FiftyL {...FiftyLIndhold.laura} />
         <FiftyR {...FiftyRIndhold.sabrina} />
         <FiftyL {...FiftyLIndhold.rosa} />
         <FiftyR {...FiftyRIndhold.samarbejde} />
-    </main>
+    </div>
     )
     
 }

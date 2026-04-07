@@ -17,6 +17,8 @@ export default function Formular() {
             <label className="block mb-2 text-[#F6ECE3]">Dit fulde navn:</label>
             <input
               type="text"
+              name="name"
+              autoComplete="name"
               placeholder="Dit fulde navn"
               required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
@@ -26,9 +28,11 @@ export default function Formular() {
           <div>
             <label className="block mb-2 text-[#F6ECE3]">Dit telefonnummer:</label>
             <input
-              type="text"
-              placeholder="Dit telefonnummer"
-              required
+             type="tel"
+             name="phone"
+             autoComplete="tel"
+             placeholder="Dit telefonnummer"
+             required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
             />
           </div>
@@ -37,6 +41,8 @@ export default function Formular() {
             <label className="block mb-2 text-[#F6ECE3]">E-mail:</label>
             <input
               type="email"
+              name="email"
+              autoComplete="email"
               placeholder="E-mail"
               required
               className="w-full p-3 rounded-lg bg-[#F6ECE3]"
