@@ -2,6 +2,7 @@ import altIEn from "../assets/altien.svg";
 import optimering from "../assets/optimering.svg";
 import laura from "../assets/laura.webp";
 import rosa from "../assets/rosa.webp";
+import vardier from "../assets/tilgang-forside.svg";
 
 const FiftyLIndhold = {
 
@@ -19,7 +20,7 @@ vardier: {
   paragraphs: ["Vi arbejder for at reducere internettets klimaaftryk ved at skabe optimerede og effektive hjemmesider uden unødvendigt fyld. For os er bæredygtighed ikke et kompromis, men en naturlig del af designprocessen. Vi udvikler løsninger, der både er visuelt stærke og mindre ressourcekrævende, uden at gå på kompromis med fremstillingen af vores kunders arbejde.", "Samtidig gør vi det nemt for vores kunder at forstå, hvordan deres hjemmesider kan optimeres. Gennem simple forklaringer og konkrete eksempler viser vi, hvordan mindre datamængde og bedre struktur kan skabe hurtigere hjemmesider og en bedre brugeroplevelse. På den måde bliver bæredygtighed en fordel, der både kan mærkes i performance og klimaet."],
   buttonText: "Vores værdier",
   buttonLink: "/omos",
-  image: "/images/vores-tilgang.jpg",
+  image: vardier,
   imageAlt: "Billede af en fotograf i aktion",
 },
 
