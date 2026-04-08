@@ -17,9 +17,9 @@ export default function OmOs() {
             description="Her kan du få et indblik i, hvem vi er som virksomhed, 
             og hvordan vi arbejder som din kommende samarbejdspartner  - tag et kig længere nede."
         />  
-        <div className="-mt-32">
+
             <InfoxesVV/>
-        </div>
+
         <FiftyL {...FiftyLIndhold.laura} />
         <FiftyR {...FiftyRIndhold.sabrina} />
         <FiftyL {...FiftyLIndhold.rosa} />
