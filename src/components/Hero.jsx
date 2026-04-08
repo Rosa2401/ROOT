@@ -7,12 +7,12 @@ export default function HeroSection() {
       {/* Lottie Background */}
       <div className="absolute inset-0">
         <Lottie
-          animationData={animationData}
-          loop={false}
-          autoplay={true}
-          rendererSettings={{ preserveAspectRatio: "xMidYMid meet", progressiveLoad: true }}
-          style={{ width: "100%", height: "100%" }}
-        />
+  animationData={animationData}
+  loop={false}
+  autoplay={true}
+  rendererSettings={{ preserveAspectRatio: "xMidYMid slice", progressiveLoad: true }}
+  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+/>
       </div>
     </section>
   );
