@@ -18,8 +18,8 @@ export default function HeroSectionSVG({ title, description }) {
               {title}
             </h1>
             <p className="text-[#442F2A] text-lg text-center max-w-md mx-auto font-semibold mt-4">
-  {description}
-</p>
+              {description}
+            </p>
           </div>
         </div>
       </section>
