@@ -1,6 +1,18 @@
 import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 5);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const navLinkClass = ({ isActive }) =>
     `px-6 py-2 rounded-full transition ${
       isActive
@@ -13,27 +25,31 @@ export default function Header() {
       
       {/* Logo */}
       <div className="absolute left-6">
-  <NavLink to="/" className="group relative">
-    
-    {/* Normal logo */}
-    <img
-      src="/src/assets/logo442F2A.svg"
-      alt="Logo"
-      className="h-10 w-auto transition duration-300 group-hover:opacity-0"
-    />
+        <NavLink to="/" className="group relative">
+          
+          {/* Normal logo */}
+          <img
+            src="/src/assets/logo442F2A.svg"
+            alt="Logo"
+            className="h-10 w-auto transition duration-300 group-hover:opacity-0"
+          />
 
-    {/* Pink logo */}
-    <img
-      src="/src/assets/logoFFCFD5.svg"
-      alt="Logo"
-      className="h-10 w-auto absolute top-0 left-0 opacity-0 transition duration-300 group-hover:opacity-100"
-    />
+          {/* Pink logo - hover */}
+          <img
+            src="/src/assets/logoFFCFD5.svg"
+            alt="Logo"
+            className="h-10 w-auto absolute top-0 left-0 opacity-0 transition duration-300 group-hover:opacity-100"
+          />
 
-  </NavLink>
-</div>
+        </NavLink>
+      </div>
 
       {/* Navigation */}
-      <nav className="bg-[#442F2A] w-[40%] max-w-xl rounded-full py-6 px-10 flex justify-around items-center text-lg font-semibold">
+      <nav
+        className={`bg-[#442F2A] w-[40%] max-w-xl rounded-full py-6 px-10 flex justify-around items-center text-lg font-semibold transition-all duration-300 ${
+          scrolled ? "border border-[#F6ECE3]" : ""
+        }`}
+      >
         
         <NavLink to="/services" className={navLinkClass}>
           Services

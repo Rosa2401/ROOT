@@ -15,7 +15,7 @@ export default function InfoboxesS() {
           to="/services" 
           className="block w-[320px]"
         >
-          <div className="bg-[#4B2E2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
+          <div className="bg-[#442F2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
             
             <div className="flex flex-col flex-grow">
               <h3 className="font-oleo text-2xl mb-3">
@@ -52,7 +52,7 @@ export default function InfoboxesS() {
 
         {/* CARD 2 */}
         <Link to="/services" className="block w-[320px]">
-          <div className="bg-[#4B2E2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
+          <div className="bg-[#442F2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
             
             <div className="flex flex-col flex-grow">
               <h3 className="font-oleo text-2xl mb-3">
@@ -90,7 +90,7 @@ export default function InfoboxesS() {
 
         {/* CARD 3 */}
         <Link to="/services" className="block w-[320px]">
-          <div className="bg-[#4B2E2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
+          <div className="bg-[#442F2A] rounded-[40px] px-8 py-10 text-center flex flex-col h-full transform hover:scale-105 hover:shadow-2xl transition duration-300 cursor-pointer">
             
             <div className="flex flex-col flex-grow">
               <h3 className="font-oleo text-2xl mb-3">

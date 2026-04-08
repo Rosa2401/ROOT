@@ -1,11 +1,11 @@
 export default function Facts() {
     return (
-      <section className="bg-[#F6ECE3] p-12 rounded-[40px] border border-[#4A2E2A] mx-12">
+      <section className="bg-[#F6ECE3] p-12 rounded-[40px] border border-[#442F2A] mx-12">
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           
           {/* VENSTRE STOR BOKS */}
-          <div className="bg-[#4A2E2A] text-[#F6ECE3] rounded-[40px] p-10 flex flex-col justify-center">
+          <div className="bg-[#442F2A] text-[#F6ECE3] rounded-[40px] p-10 flex flex-col justify-center">
             <h2 className="font-oleo text-3xl mb-10 ">
               Hvorfor er optimering vigtigt?
             </h2>
@@ -24,35 +24,35 @@ export default function Facts() {
           <div className="grid grid-cols-2 gap-8">
             
             {/* CARD 1 */}
-            <div className="bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#4A2E2A]">
+            <div className="bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
               <p className="text-md">
                 100 MB svarer til det samme energiforbrug som 2–3 telefonopladninger.
               </p>
             </div>
   
             {/* CARD 2 */}
-            <div className="bg-[#F6ECE3] text-[#4A2E2A] rounded-[30px] p-8 text-center border border-[#4A2E2A]">
+            <div className="bg-[#F6ECE3] text-[#442F2A] rounded-[30px] p-8 text-center border border-[#442F2A]">
               <p className="text-md">
                 Du sparer typisk 50–80% ved at konvertere PNG → WebP.
               </p>
             </div>
   
             {/* CARD 3 */}
-            <div className="bg-[#F6ECE3] text-[#4A2E2A] rounded-[30px] p-8 text-center border border-[#4A2E2A]">
+            <div className="bg-[#F6ECE3] text-[#442F2A] rounded-[30px] p-8 text-center border border-[#442F2A]">
               <p className="text-md">
                 Vidste du, at farven blå bruger mere energi end andre farver?
               </p>
             </div>
   
             {/* CARD 4 */}
-            <div className="bg-[#4A2E2A] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#4A2E2A]">
+            <div className="bg-[#442F2A] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
               <p className="text-md">
                 En besparelse på 100 MB kan gøre din hjemmeside op til 10–80 sek hurtigere.
               </p>
             </div>
   
             {/* CARD 5 */}
-            <div className="col-span-2 bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#4A2E2A]">
+            <div className="col-span-2 bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
               <p className="text-md">
                 Vidste du, at hvis internettet var et land, ville det ligge på en 6. plads over de mest forurenende lande?
               </p>
