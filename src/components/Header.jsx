@@ -9,8 +9,31 @@ export default function Header() {
     }`;
 
   return (
-    <header className="w-full flex justify-center">
-      <nav className="bg-[#5B3A32] w-[40%] max-w-xl rounded-full py-6 px-10 flex justify-around items-center text-lg font-semibold">
+    <header className="w-full flex items-center justify-center sticky top-0 z-50 py-4">
+      
+      {/* Logo */}
+      <div className="absolute left-6">
+  <NavLink to="/" className="group relative">
+    
+    {/* Normal logo */}
+    <img
+      src="/src/assets/logo442F2A.svg"
+      alt="Logo"
+      className="h-10 w-auto transition duration-300 group-hover:opacity-0"
+    />
+
+    {/* Pink logo */}
+    <img
+      src="/src/assets/logoFFCFD5.svg"
+      alt="Logo"
+      className="h-10 w-auto absolute top-0 left-0 opacity-0 transition duration-300 group-hover:opacity-100"
+    />
+
+  </NavLink>
+</div>
+
+      {/* Navigation */}
+      <nav className="bg-[#442F2A] w-[40%] max-w-xl rounded-full py-6 px-10 flex justify-around items-center text-lg font-semibold">
         
         <NavLink to="/services" className={navLinkClass}>
           Services
