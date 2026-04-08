@@ -9,7 +9,7 @@ const CaseL = ({
 }) => {
   return (
     <section className="w-full my-20 py-16">
-      <div className="grid items-center lg:grid-cols-2 rounded-r-[3rem] border border-[#4b342f] border-l-0 w-11/12 lg:h-[520px]">
+      <div className="grid items-center lg:grid-cols-2 rounded-r-[3rem] border border-[#442F2A] border-l-0 w-11/12 lg:h-[520px]">
         
         {/* Billede venstre */}
         <div className="w-full pr-[5%]">
