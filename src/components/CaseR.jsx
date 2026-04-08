@@ -17,7 +17,7 @@ const CaseR = ({
             
             {/* Titel */}
             {title && (
-              <h2 className="font-oleo mb-4 text-4xl font-semibold">
+              <h2 className="font-oleo mb-4 text-5xl font-semibold">
                 {title}
               </h2>
             )}
@@ -68,12 +68,12 @@ const CaseR = ({
 
         {/* Billede højre */}
         <div className="w-full">
-          <div className="flex h-[420px] items-center justify-end overflow-hidden">
+          <div className="flex h-[420px] items-center justify-end overflow-hidden ">
             {image ? (
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-[70%] max-w-[70%] object-contain mr-[10%]"
+                className="max-h-[80%] max-w-[80%] object-contain mr-24"
               />
             ) : (
               <div className="h-full w-full" />
