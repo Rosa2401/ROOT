@@ -14,7 +14,7 @@ export default function HeroSectionSVG({ title, description }) {
         {/* Centered Text with Sheer Box */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
           <div className="bg-[#F6ECE3]/50 px-8 py-6 rounded-xl">
-            <h1 className="text-[#442F2A] font-oleo text-9xl font-bold text-center">
+            <h1 className="text-[#442F2A] font-oleo text-9xl font-bold text-center tracking-wide">
               {title}
             </h1>
             <p className="text-[#442F2A] text-lg text-center max-w-md mx-auto font-semibold mt-4">
