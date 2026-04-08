@@ -5,12 +5,18 @@ import FiftyLIndhold from "../components/FiftyLIndhold";
 import FiftyR from "../components/FiftyR";
 import FiftyRIndhold from "../components/FiftyRIndhold";
 import InfoxesVV from "../components/InfoboxesVV";
+import HeroSectionSVG from "../components/HeroTwo";
 
 export default function OmOs() {
 
 
     return (
     <div>
+        <HeroSectionSVG
+                        title="Hvem er vi?"
+                        description="Her kan du få et indblik i, hvem vi er som virksomhed, 
+                        og hvordan vi arbejder som din kommende samarbejdspartner  - tag et kig længere nede."
+        />  
         <InfoxesVV/>
         <FiftyL {...FiftyLIndhold.laura} />
         <FiftyR {...FiftyRIndhold.sabrina} />
