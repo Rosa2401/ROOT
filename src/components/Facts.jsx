@@ -24,16 +24,16 @@ export default function Facts() {
           <div className="grid grid-cols-2 gap-8">
             
             {/* CARD 1 */}
-            <div className="bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
+            <div className="bg-[#91766D] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
               <p className="text-md">
-                100 MB svarer til det samme energiforbrug som 2–3 telefonopladninger.
+                100 MB svarer til det samme energiforbrug som 2-3 telefonopladninger.
               </p>
             </div>
   
             {/* CARD 2 */}
             <div className="bg-[#F6ECE3] text-[#442F2A] rounded-[30px] p-8 text-center border border-[#442F2A]">
               <p className="text-md">
-                Du sparer typisk 50–80% ved at konvertere PNG → WebP.
+                Du sparer typisk 50-80% ved at konvertere PNG → WebP.
               </p>
             </div>
   
@@ -52,7 +52,7 @@ export default function Facts() {
             </div>
   
             {/* CARD 5 */}
-            <div className="col-span-2 bg-[#9C7F73] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
+            <div className="col-span-2 bg-[#91766D] text-[#F6ECE3] rounded-[30px] p-6 text-center border border-[#442F2A]">
               <p className="text-md">
                 Vidste du, at hvis internettet var et land, ville det ligge på en 6. plads over de mest forurenende lande?
               </p>
