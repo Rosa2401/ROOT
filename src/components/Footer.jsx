@@ -5,29 +5,48 @@ export default function Footer() {
       <footer className="bg-[#442F2A] text-[#F6ECE3] rounded-t-[80px] px-12 py-18">
         
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-20">
-          
-          <div>
-          <Link to="/" className="inline-block">
-            <h2 className="font-oleo text-6xl mb-8 -mt-8 cursor-pointer">ROOT</h2>
-          </Link>
-            <ul className="space-y-3 text-sm">
-              <li>SØNDERHØJ 30</li>
-              <li>8260 VIBY J</li>
-              <li>CVR: 10101010</li>
-            </ul>
-          </div>
+
+        <div>
+  <Link to="/" className="inline-block mb-8 -mt-8">
+    
+    <div className="relative group w-fit">
+      
+      {/* Hvidt logo */}
+      <img
+        src="/src/assets/logoF6ECE3.svg"
+        alt="ROOT logo"
+        className="h-16 w-auto transition duration-400 group-hover:opacity-0"
+      />
+
+      {/* Pink logo */}
+      <img
+        src="/src/assets/logoFFCFD5.svg"
+        alt="ROOT logo"
+        className="h-16 w-auto absolute inset-0 opacity-0 transition duration-400 group-hover:opacity-100"
+      />
+
+    </div>
+
+  </Link>
+
+  <ul className="space-y-3 text-sm">
+    <li>SØNDERHØJ 30</li>
+    <li>8260 VIBY J</li>
+    <li>CVR: 10101010</li>
+  </ul>
+</div>
 
           <div>
             <h3 className="font-oleo text-2xl mb-6 ">VI TILBYDER</h3>
             <ul className="space-y-3 text-sm">
             <li>
-                <a href="/services" className="block hover:underline">ALT I ÉN</a>
+                <a href="/services" className="block hover:text-[#FFCFD5]">ALT I ÉN</a>
             </li>
             <li>
-                <a href="/services" className="block hover:underline">OPTIMERING</a>
+                <a href="/services" className="block hover:text-[#FFCFD5]">OPTIMERING</a>
             </li>
             <li>
-                <a href="/services" className="block hover:underline">OPTIMERET BRUGERREJSE</a>
+                <a href="/services" className="block hover:text-[#FFCFD5]">OPTIMERET BRUGERREJSE</a>
             </li>
           </ul>
           </div>
@@ -38,16 +57,16 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm">
             <li>
-                <a href="/om-os" className="block hover:underline">OM OS</a>
+                <a href="/om-os" className="block hover:text-[#FFCFD5]">OM OS</a>
             </li>
             <li>
-                <a href="/cases" className="block hover:underline">CASES</a>
+                <a href="/cases" className="block hover:text-[#FFCFD5]">CASES</a>
             </li>
             <li>
-                <a href="/services" className="block hover:underline">SERVICES</a>
+                <a href="/services" className="block hover:text-[#FFCFD5]">SERVICES</a>
             </li>
             <li>
-                <a href="/kontakt" className="block hover:underline">KONTAKT</a>
+                <a href="/kontakt" className="block hover:text-[#FFCFD5]">KONTAKT</a>
             </li>
             </ul>
         </div>

@@ -6,12 +6,14 @@ import FiftyR from '../components/FiftyR'
 import FiftyRIndhold from '../components/FiftyRIndhold'
 import InfoboxesS from '../components/InfoboxesS'
 import TiltagBox from '../components/Tiltag'
+import HeroSection from '../components/Hero'
 
 
 function DefaultPage() {
 
   return (
     <div>
+      <HeroSection/>
       <Facts/>
       <FiftyL {...FiftyLIndhold.voresTilgang}/>
       <TiltagBox/>
