@@ -23,6 +23,7 @@ optimeretBrugerrejse: {
   priceNote: "ekskl. moms",
   price: "Fra 7.995,-",
   image: optimeretBrugerrejse,
+  imageLink: "/kontakt",
   imageAlt: "Billede af fod i mockup som illusterer optimeret brugerrejse",
 },
 
@@ -32,6 +33,7 @@ sabrina: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:sabrina@firma.dk",
   imageOmOs: sabrina,
+  imageLink: "mailto:sabrina@firma.dk",
   imageOmOsAlt: "Billede af Sabrina, frontend developer",
   imageClassName: "",
 },
@@ -41,6 +43,7 @@ samarbejde: {
   buttonText: "KONTAKT OS",
   buttonLink: "/kontakt",
   imageOmOs: samlet,
+  imageLink: "/kontakt",
   imageOmOsAlt: "Billede af alle medarbejdere i ROOT",
 },
 
@@ -50,6 +53,7 @@ uforpligtende: {
   buttonText: "Book samtale",
   buttonLink: "mailto:root@firma.dk",
   imageOmOs: samlet,
+  imageLink: "mailto:root@firma.dk",
   imageOmOsAlt: "Billede af alle medarbejdere i ROOT",
 },
 
