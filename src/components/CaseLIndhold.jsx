@@ -11,7 +11,7 @@ freelancerFotograf: {
   title: "Freelancer fotograf",
   subtitle: "Optimeret brugerrejse",
   buttonText: "Se case",
-  buttonLink: "/cases",
+  buttonLink: "/error",
   image: freelance,
   imageAlt: "mockup af en fotograf hjemmeside",
   features: [
@@ -34,7 +34,7 @@ grafiskDesigner: {
   title: "Grafisk designer",
   subtitle: "Alt i én",
   buttonText: "Se case",
-  buttonLink: "/cases",
+  buttonLink: "/error",
   image: grafisk,
   imageAlt: "mockup grafisk designers hjemmeside",
   features: [
