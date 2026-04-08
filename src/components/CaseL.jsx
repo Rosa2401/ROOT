@@ -18,7 +18,7 @@ const CaseL = ({
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-[70%] max-w-[70%] object-contain ml-[10%]"
+                className="max-h-[80%] max-w-[80%] object-contain ml-[10%]"
               />
             ) : (
               <div className="h-full w-full" />
@@ -32,7 +32,7 @@ const CaseL = ({
             
             {/* Titel */}
             {title && (
-              <h2 className="font-oleo mb-4 text-4xl font-semibold">
+              <h2 className="font-oleo mb-4 text-5xl font-semibold">
                 {title}
               </h2>
             )}
