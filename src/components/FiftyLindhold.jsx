@@ -12,6 +12,7 @@ voresTilgang: {
   buttonText: "Vores services",
   buttonLink: "/services",
   image: optimering,
+  imageLink: "/services",
   imageAlt: "Billede af lyn i mockup som illusterer optimering", 
 },
 
@@ -19,8 +20,9 @@ vardier: {
   title: "Værdier",
   paragraphs: ["Vi arbejder for at reducere internettets klimaaftryk ved at skabe optimerede og effektive hjemmesider uden unødvendigt fyld. For os er bæredygtighed ikke et kompromis, men en naturlig del af designprocessen. Vi udvikler løsninger, der både er visuelt stærke og mindre ressourcekrævende, uden at gå på kompromis med fremstillingen af vores kunders arbejde.", "Samtidig gør vi det nemt for vores kunder at forstå, hvordan deres hjemmesider kan optimeres. Gennem simple forklaringer og konkrete eksempler viser vi, hvordan mindre datamængde og bedre struktur kan skabe hurtigere hjemmesider og en bedre brugeroplevelse. På den måde bliver bæredygtighed en fordel, der både kan mærkes i performance og klimaet."],
   buttonText: "Vores værdier",
-  buttonLink: "/omos",
+  buttonLink: "/om-os",
   image: vardier,
+  imageLink: "/om-os",
   imageAlt: "Billede af en fotograf i aktion",
 },
 
@@ -32,6 +34,7 @@ altIEn: {
   priceNote: "ekskl. moms",
   price: "Fra 14.995,-",
   image: altIEn,
+  imageLink: "/kontakt",
   imageAlt: "Billede af fod og lyn i mockup som illusterer alt i én løsning",
 },
 
@@ -43,6 +46,7 @@ optimering: {
   priceNote: "ekskl. moms",
   price: "Fra 4.995,-",
   image: optimering,
+  imageLink: "/kontakt",
   imageAlt: "Billede af lyn i mockup som illusterer optimering",
 },
 
@@ -52,6 +56,7 @@ laura: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:laura@firma.dk",
   imageOmOs: laura,
+  imageLink: "mailto:laura@firma.dk",
   imageOmOsAlt: "Billede af Laura, projektleder og koordinator",
 },
 
@@ -61,6 +66,7 @@ rosa: {
   buttonText: "SEND E-MAIL",
   buttonLink: "mailto:rosa@firma.dk",
   imageOmOs: rosa,
+  imageLink: "mailto:rosa@firma.dk",
   imageOmOsAlt: "Billede af Rosa, content- og grafisk designer",
   imageClassName: "",
 },
