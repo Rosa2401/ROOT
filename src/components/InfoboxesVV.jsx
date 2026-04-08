@@ -19,7 +19,7 @@ export default function InfoboxesVV() {
               />
             </div>
   
-            <div className="bg-[#4B2E2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
+            <div className="bg-[#442F2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
               
               <h3 className="font-oleo text-2xl mb-3">
                 Design med omtanke
@@ -51,7 +51,7 @@ export default function InfoboxesVV() {
               />
             </div>
   
-            <div className="bg-[#4B2E2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
+            <div className="bg-[#442F2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
               
               <h3 className="font-oleo text-2xl mb-3">
                 Kreativitet uden grænser
@@ -83,7 +83,7 @@ export default function InfoboxesVV() {
               />
             </div>
   
-            <div className="bg-[#4B2E2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
+            <div className="bg-[#442F2A] rounded-[40px] px-8 pt-20 pb-10 text-center flex flex-col min-h-[500px]">
               
               <h3 className="font-oleo text-2xl mb-3">
                 Enkelt og effektivt
