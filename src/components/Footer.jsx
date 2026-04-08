@@ -34,7 +34,7 @@ export default function Footer() {
   
 
         <div>
-        <h3 className="font-oleo text-2xl mb-6">MERE INFORMATION</h3>
+        <h3 className="font-oleo text-2xl mb-6">OPLYSNINGER</h3>
 
             <ul className="space-y-3 text-sm">
             <li>
