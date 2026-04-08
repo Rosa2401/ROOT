@@ -1,6 +1,6 @@
 export default function Facts() {
     return (
-      <section className="bg-[#F6ECE3] p-12 rounded-[40px] border border-[#442F2A] mx-12">
+      <section className="bg-[#F6ECE3] p-12 rounded-[40px] border border-[#442F2A] mx-12 z-20 relative">
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           
