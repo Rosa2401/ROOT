@@ -5,6 +5,7 @@ import Services from "./views/Services";
 import Cases from "./views/Cases";
 import OmOs from "./views/OmOs";
 import Kontakt from "./views/Kontakt";
+import Error from "./views/Error";
 
 const router = createBrowserRouter ([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter ([
       {
         path: "/kontakt",
         element: <Kontakt />
+      },
+
+      {
+        path: "/error",
+        element: <Error />
       },
     ]
   }
