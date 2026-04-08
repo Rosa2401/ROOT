@@ -64,7 +64,7 @@ imageOmOsAlt = "",
 
             {/* Billede højre */}
             <div className="w-full pl-[5%]">
-                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-l-[3rem] border border-[#4b342f] border-r-0">
+                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-l-[3rem] border border-[#442F2A] border-r-0">
                     {image && (
                     <Link to={imageLink} className="flex items-center justify-center w-full h-full">
                         <img
