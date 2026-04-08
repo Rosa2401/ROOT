@@ -24,7 +24,7 @@ const tiltag = [
 
 export default function TiltagBox() {
   return (
-    <section className="bg-[#442F2A] text-[#F6ECE3] py-16 px-6">
+    <section id="tiltagbox" className="bg-[#442F2A] text-[#F6ECE3] py-16 px-6">
       <h2 className="font-oleo mb-4 text-4xl font-semibold text-center pb-10">
         Hvad gør vi anderledes?
       </h2>

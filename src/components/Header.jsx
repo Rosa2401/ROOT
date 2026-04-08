@@ -3,12 +3,30 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [logoVariant, setLogoVariant] = useState("default");
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 5);
-    };
+      const scrollY = window.scrollY;
+  
+      setScrolled(scrollY > 5);
+  
 
+      const section = document.getElementById("tiltagbox");
+      if (!section) return;
+  
+      const headerOffset = 100; 
+  
+      const start = section.offsetTop - headerOffset;
+      const end = section.offsetTop + section.offsetHeight - headerOffset;
+  
+      if (scrollY >= start && scrollY <= end) {
+        setLogoVariant("tiltagbox");
+      } else {
+        setLogoVariant("default");
+      }
+    };
+  
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -27,14 +45,17 @@ export default function Header() {
       <div className="absolute left-6">
         <NavLink to="/" className="group relative">
           
-          {/* Normal logo */}
           <img
-            src="/src/assets/logo442F2A.svg"
+            src={
+              logoVariant === "tiltagbox"
+                ? "/src/assets/logoF6ECE3.svg"
+                : "/src/assets/logo442F2A.svg"
+            }
             alt="Logo"
             className="h-10 w-auto transition duration-300 group-hover:opacity-0"
           />
 
-          {/* Pink logo - hover */}
+          {/* Hover logo */}
           <img
             src="/src/assets/logoFFCFD5.svg"
             alt="Logo"
@@ -50,7 +71,6 @@ export default function Header() {
           scrolled ? "border border-[#F6ECE3]" : ""
         }`}
       >
-        
         <NavLink to="/services" className={navLinkClass}>
           Services
         </NavLink>
@@ -66,7 +86,6 @@ export default function Header() {
         <NavLink to="/kontakt" className={navLinkClass}>
           Kontakt
         </NavLink>
-
       </nav>
     </header>
   );
