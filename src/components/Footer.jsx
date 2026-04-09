@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import logoPink from "../assets/logoFFCFD5.svg";
 import logoLightBrown from "../assets/logoF6ECE3.svg";
+import linkedIn from "../assets/linkedin.svg";
+import linkedInPink from "../assets/linkedinpink.svg";
 
 export default function Footer() {
     return (
@@ -81,13 +83,13 @@ export default function Footer() {
             
             <a href="https://www.linkedin.com" className="relative group inline-block w-12 h-12">
               <img 
-                src="src/assets/linkedin.svg" 
+                src={linkedIn} 
                 alt="LinkedIn" 
                 className="absolute inset-0 w-full h-full object-contain transition duration-300 group-hover:opacity-0"
               />
 
               <img 
-                src="src/assets/linkedinpink.svg" 
+                src={linkedInPink} 
                 alt="LinkedInPink" 
                 className="absolute inset-0 w-full h-full object-contain opacity-0 transition duration-300 group-hover:opacity-100"
               />
