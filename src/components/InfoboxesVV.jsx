@@ -1,6 +1,6 @@
 export default function InfoboxesVV() {
     return (
-      <section className="bg-[#8B6F63] rounded-[50px] py-18 text-[#F6ECE3] max-w-7xl mx-auto px-8">
+      <section className="bg-[#91766D] rounded-[50px] py-18 text-[#F6ECE3] max-w-7xl mx-auto px-8 z-10 relative">
         
         <h2 className="font-oleo text-center text-5xl mb-24">
           Vores værdier

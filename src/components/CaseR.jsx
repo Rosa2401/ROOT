@@ -9,7 +9,7 @@ const CaseR = ({
 }) => {
   return (
     <section className="w-full my-20 py-16">
-      <div className="ml-auto grid items-center lg:grid-cols-2 rounded-l-[3rem] border border-[#4b342f] border-r-0 w-11/12 lg:h-[520px]">
+      <div className="ml-auto grid items-center lg:grid-cols-2 rounded-l-[3rem] border border-[#442F2A] border-r-0 w-11/12 lg:h-[520px]">
         
         {/* Tekst venstre */}
         <div className="w-full pl-[20%] pr-[5%] text-[#442F2A]">

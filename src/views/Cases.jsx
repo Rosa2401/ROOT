@@ -8,7 +8,11 @@ export default function Cases() {
 
     return (
         <div>
-            <HeroSectionSVG/>      
+            <HeroSectionSVG
+                title="Cases"
+                description="Vi har hjulpet flere virksomheder med at skabe 
+                deres visuelle identitet, som afspejler hvem de er."
+            />     
             <CaseL {...CaseLIndhold.freelancerFotograf}/>            
             <CaseR {...CaseRIndhold.ugcCreator}/>
             <CaseL {...CaseLIndhold.grafiskDesigner}/>

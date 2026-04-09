@@ -14,9 +14,9 @@ function DefaultPage() {
   return (
     <div>
       <HeroSection/>
-      <div className="-mt-32"> {/* adjust -mt-32 to control overlap */}
-    <Facts />
-  </div>
+      <div className="-mt-32">
+        <Facts />
+      </div>
       <FiftyL {...FiftyLIndhold.voresTilgang}/>
       <TiltagBox/>
       <FiftyR {...FiftyRIndhold.tidligereArbejde}/>

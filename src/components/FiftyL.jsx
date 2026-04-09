@@ -21,7 +21,7 @@ imageOmOsAlt = "",
         
             {/* Billede venstre */}
             <div className="w-full pr-[5%]">
-                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-r-[3rem] border border-[#4b342f] border-l-0">
+                <div className="lg:h-[520px] flex items-center justify-center overflow-hidden rounded-r-[3rem] border border-[#442F2A] border-l-0">
                     {image && (
                     <Link to={imageLink} className="flex items-center justify-center w-full h-full">
                     <img

@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animationData from "../assets/hero-forside-6.json";
+import animationData from "../assets/hero-forside-7.json";
 
 export default function HeroSection() {
   return (
