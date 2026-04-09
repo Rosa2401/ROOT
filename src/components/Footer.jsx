@@ -76,11 +76,18 @@ export default function Footer() {
             <p className="text-sm mb-2">+45 60 60 60 60</p>
             <p className="text-sm mb-4">INFO@ROOT.DK</p>
             
-            <a href="https://www.linkedin.com">
+            
+            <a href="https://www.linkedin.com" className="relative group inline-block w-12 h-12">
               <img 
                 src="src/assets/linkedin.svg" 
                 alt="LinkedIn" 
-                className="w-12 h-12"
+                className="absolute inset-0 w-full h-full object-contain transition duration-300 group-hover:opacity-0"
+              />
+
+              <img 
+                src="src/assets/linkedinpink.svg" 
+                alt="LinkedInPink" 
+                className="absolute inset-0 w-full h-full object-contain opacity-0 transition duration-300 group-hover:opacity-100"
               />
             </a>
           </div>
