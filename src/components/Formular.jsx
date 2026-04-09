@@ -1,6 +1,6 @@
 export default function Formular() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-4 mb-36">
       
       <div className="bg-[#91766D] rounded-3xl p-12 max-w-6xl w-full">
         
