@@ -1,3 +1,8 @@
+import omtanke from "../assets/omtanke2.svg";
+import kreativt from "../assets/kreativt2.svg";
+import effektivt from "../assets/effektivt2.svg";
+
+
 export default function InfoboxesVV() {
     return (
       <section className="bg-[#91766D] rounded-[50px] py-18 text-[#F6ECE3] max-w-7xl mx-auto px-8 z-10 relative">
@@ -14,7 +19,7 @@ export default function InfoboxesVV() {
             {/* IKON */}
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="src/assets/omtanke2.svg" 
+                src={omtanke}
                 alt="Omtanke ikon"
               />
             </div>
@@ -46,7 +51,7 @@ export default function InfoboxesVV() {
             
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="src/assets/kreativt2.svg" 
+                src={kreativt}
                 alt="Kreativitet ikon"
               />
             </div>
@@ -78,7 +83,7 @@ export default function InfoboxesVV() {
             
             <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-32 h-32 bg-[#F6ECE3] rounded-full flex items-center justify-center">
               <img 
-                src="src/assets/effektivt2.svg" 
+                src={effektivt}
                 alt="Effektiv ikon"
               />
             </div>

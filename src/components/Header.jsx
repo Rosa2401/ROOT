@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import logoLightBrown from "../assets/logoF6ECE3.svg";
+import logoDarkBrown from "../assets/logo442F2A.svg";
+import logoPink from "../assets/logoFFCFD5.svg";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -45,22 +48,21 @@ export default function Header() {
       <div className="absolute left-6">
         <NavLink to="/" className="group relative">
           
+          <div className="relative group">
+          {/* Normal logo */}
           <img
-            src={
-              logoVariant === "tiltagbox"
-                ? "/src/assets/logoF6ECE3.svg"
-                : "/src/assets/logo442F2A.svg"
-            }
+            src={logoVariant === "tiltagbox" ? logoLightBrown : logoDarkBrown}
             alt="Logo"
             className="h-10 w-auto transition duration-300 group-hover:opacity-0"
           />
 
           {/* Hover logo */}
           <img
-            src="/src/assets/logoFFCFD5.svg"
+            src={logoPink}
             alt="Logo"
             className="h-10 w-auto absolute top-0 left-0 opacity-0 transition duration-300 group-hover:opacity-100"
           />
+        </div>
 
         </NavLink>
       </div>
