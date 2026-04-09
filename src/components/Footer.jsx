@@ -44,13 +44,13 @@ export default function Footer() {
             <h3 className="font-oleo text-2xl mb-6 ">VI TILBYDER</h3>
             <ul className="space-y-3 text-sm">
             <li>
-                <a href="/services" className="block hover:text-[#FFCFD5]">ALT I ÉN</a>
+                <Link to="/services" className="block hover:text-[#FFCFD5]">ALT I ÉN</Link>
             </li>
             <li>
-                <a href="/services" className="block hover:text-[#FFCFD5]">OPTIMERING</a>
+                <Link to="/services" className="block hover:text-[#FFCFD5]">OPTIMERING</Link>
             </li>
             <li>
-                <a href="/services" className="block hover:text-[#FFCFD5]">OPTIMERET BRUGERREJSE</a>
+                <Link to="/services" className="block hover:text-[#FFCFD5]">OPTIMERET BRUGERREJSE</Link>
             </li>
           </ul>
           </div>
@@ -61,16 +61,16 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm">
             <li>
-                <a href="/om-os" className="block hover:text-[#FFCFD5]">OM OS</a>
+                <Link to="/om-os" className="block hover:text-[#FFCFD5]">OM OS</Link>
             </li>
             <li>
-                <a href="/cases" className="block hover:text-[#FFCFD5]">CASES</a>
+                <Link to="/cases" className="block hover:text-[#FFCFD5]">CASES</Link>
             </li>
             <li>
-                <a href="/services" className="block hover:text-[#FFCFD5]">SERVICES</a>
+                <Link to="/services" className="block hover:text-[#FFCFD5]">SERVICES</Link>
             </li>
             <li>
-                <a href="/kontakt" className="block hover:text-[#FFCFD5]">KONTAKT</a>
+                <Link to="/kontakt" className="block hover:text-[#FFCFD5]">KONTAKT</Link>
             </li>
             </ul>
         </div>
