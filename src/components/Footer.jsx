@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import logoPink from "../assets/logoFFCFD5.svg";
+import logoLightBrown from "../assets/logoF6ECE3.svg";
 
 export default function Footer() {
     return (
@@ -13,14 +15,14 @@ export default function Footer() {
       
       {/* Hvidt logo */}
       <img
-        src="/src/assets/logoF6ECE3.svg"
+        src={logoLightBrown}
         alt="ROOT logo"
         className="h-16 w-auto transition duration-400 group-hover:opacity-0"
       />
 
       {/* Pink logo */}
       <img
-        src="/src/assets/logoFFCFD5.svg"
+        src={logoPink}
         alt="ROOT logo"
         className="h-16 w-auto absolute inset-0 opacity-0 transition duration-400 group-hover:opacity-100"
       />
